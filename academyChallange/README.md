@@ -6,3 +6,4 @@
 
 Result : <a href="https://youtu.be/80YIa4Gwtog">YouTube Link</a> <br>
  ![Loading Screenshot](/academyChallange/ss.png)
+(*Ignore the Red line this is because screen buffer problem)
