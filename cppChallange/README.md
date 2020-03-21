@@ -1,10 +1,31 @@
-Conway's Game of Life is all about simulating real life rules on some random arrangement of cells in a given environment. The rules are as follows.
+# Cpp Challange :
+- Find the largest path in Labyrinth
+- Given a file descibing walls and holes in a txt file take the file as input
+- Output the path length of the largest path and also the order in the 2d array itself
+- Used FloodFilling algorithm to accomplish the logic
+- Also provide a CMakeList.txt/make file to compile the project
 
-    Any live cell with fewer than two live neighbours dies, as if caused by underpopulation
-    Any live cell with two or three live neighbours lives on to the next generation
-    Any live cell with more than three live neighbours dies, as if by overpopulation
-    Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction
+- Instruction to run the Code 
+```
+# clone the repo
+cd JDEAssignments/cppChalange/
+cmake
+make
+cppChallange testCpp
+```
 
-The GOL code in this repository follows the glider configuration of the game. Just run the main.py file using the following command and you should see a turtle graphics window with some random arrangement of cells first and the board should be "alive" after that.
+Result :
+- Input<br>
+##.##.#<br>
+#..##.#<br>
+#.#####<br>
+#..####<br>
+##.####<br>
 
-python main.py
+- Output<br>
+7<br>
+##0##.#<br>
+#21##.#<br>
+#3#####<br>
+#45####<br>
+##6####<br>
