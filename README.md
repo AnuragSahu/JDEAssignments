@@ -11,7 +11,9 @@ Summary and results for each challange :
 - Launch one of the Exercises locally ob our machine.
 - Capture the Screen and provide the proof of work.
 
-Result : <a href="https://youtu.be/80YIa4Gwtog">YouTube Link</a>
+Result : <a href="https://youtu.be/80YIa4Gwtog">YouTube Link</a><br>
+ ![Loading Screenshot](/academyChallange/ss.png)
+(*Ignore the Red line this is because screen buffer problem)
 
 2. Cpp Challange :
 - Find the largest path in Labyrinth
